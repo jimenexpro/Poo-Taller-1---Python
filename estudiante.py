@@ -7,14 +7,14 @@ class Estudiante:
         self.materias=[]
     #metodo para agregar materias 
     def inscribir_materias(self,materia):
-            self.materias.append(materia)
-            print(f"{self.nombre} se inscrbio en {materia}")
+        self.materias.append(materia)
+        print(f"{self.nombre} se inscrbio en {materia}")
     #metodo para mostrar informacion
     def presentarse(self):
-            print(f"Hola, soy {self.nombre}")
-            print(f"Tengo {self.edad} años")
-            print(f"Estudio {self.carrera}")
-            print(f"Materias inscritas: {len(self.materias)}")
+        print(f"Hola, soy {self.nombre}")
+        print(f"Tengo {self.edad} años")
+        print(f"Estudio {self.carrera}")
+        print(f"Materias inscritas: {len(self.materias)}")
     #metodo estudiar
     def estudiar(self,horas):
         print(f"{self.nombre} estudió {horas} horas")
